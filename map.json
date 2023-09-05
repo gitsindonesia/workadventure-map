@@ -3579,7 +3579,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1JCAzkCpvGouw5M3BSYPE84bWYfvB0I5Qa7PfCpAYAa8\/edit?embedded=true"
+                         "value":"https:\/\/docs.google.com\/spreadsheets\/d\/1He3IeCDHhUACUQKO1UvKrMpcBGIYzCVdV0f2ICtlSaw\/edit?embedded=true"
                         }, 
                         {
                          "name":"openWebsitePolicy",
@@ -3594,7 +3594,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press SPACE ou touch to open Google Sheets"
+                         "value":"Press SPACE to open Google Sheets"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -3695,7 +3695,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/document\/d\/1fq146MI_E50zenPAA2qscZzgAHmCA9mMl33lFL-Eazc\/edit?embedded=true"
+                         "value":"https:\/\/docs.google.com\/document\/d\/1uXhX_kPohqfrY8mYsXtLwLw_h30lG5fX3Hg0QgcxeeA\/edit?embedded=true"
                         }, 
                         {
                          "name":"openWebsitePolicy",
@@ -3710,7 +3710,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press SPACE ou touch to open Google Docs"
+                         "value":"Press SPACE to open Google Docs"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -3811,7 +3811,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf3nZ-y8AE8pm2Oc-ThXkez0jM9NTebeSjPLXJGydsAx3LMbg\/viewform"
+                         "value":"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSeSRqCQ5rrNw0A0tcOxw_S-yYYdA2xL7wcTmN8BwqxFNtuwhA\/viewform"
                         }, 
                         {
                          "name":"openWebsitePolicy",
@@ -4225,7 +4225,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/valdotr.github.io\/stream-starting-soon\/"
+                         "value":"https:\/\/www.youtube.com\/watch?v=aqipM3m2sq8"
                         }],
                  "type":"tilelayer",
                  "visible":true,
