@@ -51,12 +51,12 @@ const config = [
             {
                 label: 'LinkedIn',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://www.linkedin.com/company/workadventu-re'),
+                callback: () => WA.nav.openTab('https://www.linkedin.com/company/gits-indonesia'),
             },
             {
-                label: 'Twitter',
+                label: 'Instagram',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://twitter.com/workadventure_'),
+                callback: () => WA.nav.openTab('https://www.instagram.com/gitsindonesia'),
             }
         ]
     },
@@ -67,12 +67,12 @@ const config = [
             {
                 label: 'LinkedIn',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://www.linkedin.com/company/workadventu-re'),
+                callback: () => WA.nav.openTab('https://www.linkedin.com/company/gits-indonesia'),
             },
             {
-                label: 'Twitter',
+                label: 'Instagram',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://twitter.com/workadventure_'),
+                callback: () => WA.nav.openTab('https://www.instagram.com/gitsindonesia'),
             }
         ]
     },
@@ -83,12 +83,12 @@ const config = [
             {
                 label: 'LinkedIn',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://www.linkedin.com/company/workadventu-re'),
+                callback: () => WA.nav.openTab('https://www.linkedin.com/company/gits-indonesia'),
             },
             {
-                label: 'Twitter',
+                label: 'Instagram',
                 className: 'primary',
-                callback: () => WA.nav.openTab('https://twitter.com/workadventure_'),
+                callback: () => WA.nav.openTab('https://www.instagram.com/gitsindonesia'),
             }
         ]
     },
