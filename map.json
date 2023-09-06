@@ -3347,7 +3347,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/app.infinitymaps.io\/maps\/mFHmqN3GFrh"
+                         "value":"https:\/\/app.infinitymaps.io\/maps\/T3QtP2rbg3L"
                         }, 
                         {
                          "name":"openWebsitePolicy",
@@ -3362,7 +3362,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press SPACE ou touch to open Infinity Maps"
+                         "value":"Press SPACE to open Infinity Maps"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -3463,7 +3463,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/presentation\/d\/1M0OXaq4OAEVjRg8wE6EhhWTVVZHIwE25MInk7RrzAzk\/edit?embedded=true"
+                         "value":"https:\/\/docs.google.com\/presentation\/d\/1hdTKgW1TbzaBRT606U3Etu0btMz1gXZV0Zzp35dQ_x0\/edit?embedded=true"
                         }, 
                         {
                          "name":"openWebsitePolicy",
@@ -3478,7 +3478,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press SPACE ou touch to open Google Slides"
+                         "value":"Press SPACE to open Google Slides"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -4225,7 +4225,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.youtube.com\/watch?v=aqipM3m2sq8"
+                         "value":"https:\/\/www.youtube.com\/embed\/aqipM3m2sq8?si=_KHIGKRmQ8N0BG8q"
                         }],
                  "type":"tilelayer",
                  "visible":true,
