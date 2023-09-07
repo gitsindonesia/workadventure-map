@@ -1149,7 +1149,7 @@
         {
          "columns":11,
          "firstgid":1,
-         "image":"..\/src\/assets\/tileset1.png",
+         "image":"tilesets\/tileset1.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -1514,7 +1514,7 @@
         {
          "columns":11,
          "firstgid":122,
-         "image":"..\/src\/assets\/tileset1-repositioning.png",
+         "image":"tilesets\/tileset1-repositioning.png",
          "imageheight":352,
          "imagewidth":352,
          "margin":0,
@@ -1789,7 +1789,7 @@
         {
          "columns":12,
          "firstgid":243,
-         "image":"..\/src\/assets\/tileset2.png",
+         "image":"tilesets\/tileset2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -2281,7 +2281,7 @@
         {
          "columns":10,
          "firstgid":363,
-         "image":"..\/src\/assets\/tileset3.2.png",
+         "image":"tilesets\/tileset3.2.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -2340,7 +2340,7 @@
         {
          "columns":12,
          "firstgid":463,
-         "image":"..\/src\/assets\/tileset2.2.png",
+         "image":"tilesets\/tileset2.2.png",
          "imageheight":320,
          "imagewidth":384,
          "margin":0,
@@ -2372,7 +2372,7 @@
         {
          "columns":10,
          "firstgid":583,
-         "image":"..\/src\/assets\/WA_Tables.png",
+         "image":"tilesets\/WA_Tables.png",
          "imageheight":864,
          "imagewidth":320,
          "margin":0,
@@ -2385,7 +2385,7 @@
         {
          "columns":6,
          "firstgid":853,
-         "image":"..\/src\/assets\/WA_Special_Zones.png",
+         "image":"tilesets\/WA_Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,

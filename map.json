@@ -803,7 +803,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map\/floor0.json#from-wa"
+                 "value":"floor0.json#from-wa"
                 }],
          "type":"tilelayer",
          "visible":true,
