@@ -1,0 +1,46 @@
+variables:
+  SERVICE_NAME: office-map
+  
+  PROJECT_GROUP: workadventure
+  GCLOUD_PROJECT: gits-admin
+  REGISTRY_GCP: asia.gcr.io/$GCLOUD_PROJECT/$PROJECT_GROUP/$SERVICE_NAME:$CI_PIPELINE_ID
+  PORT: 80
+
+stages:
+  - analyze
+  - build
+  - deploy
+
+#forCloudrun
+build_cloudrun:
+  stage: build
+  variables: 
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  script:
+    - cp $CREDENTIAL /kaniko/kaniko-secret.json
+    - export GOOGLE_APPLICATION_CREDENTIALS=/kaniko/kaniko-secret.json
+    - /kaniko/executor
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+      --destination "${REGISTRY_GCP}"
+  only:
+    - master
+  tags:
+    - gits-docker
+
+deploy_gcp:
+  stage: deploy
+  image: google/cloud-sdk
+  before_script:
+    - cp $CREDENTIAL gcloud-credentials.json
+  script:
+    - gcloud auth activate-service-account --key-file gcloud-credentials.json
+    - gcloud config set project $GCLOUD_PROJECT
+    - gcloud auth configure-docker
+    - gcloud run deploy $SERVICE_NAME --image=$REGISTRY_GCP --platform managed --region asia-southeast2 --port $PORT --allow-unauthenticated 
+  only:
+    - master
+  tags:
+    - gits-docker
