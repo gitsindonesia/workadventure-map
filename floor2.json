@@ -478,7 +478,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/tcm\/workadventure\/floor1#from-floor2-east"
+                 "value":"floor1.json#from-floor2-east"
                 }],
          "type":"tilelayer",
          "visible":true,
