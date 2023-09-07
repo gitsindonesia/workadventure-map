@@ -803,7 +803,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/tcm\/workadventure\/floor0#from-wa"
+                 "value":"map\/floor0.json#from-wa"
                 }],
          "type":"tilelayer",
          "visible":true,
