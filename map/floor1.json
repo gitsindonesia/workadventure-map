@@ -1138,11 +1138,6 @@
          "value":"Floor1"
         }, 
         {
-         "name":"script",
-         "type":"string",
-         "value":"..\/script.js"
-        }, 
-        {
          "name":"tutorial",
          "type":"bool",
          "value":true

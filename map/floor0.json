@@ -3492,11 +3492,6 @@
          "value":"Floor0"
         }, 
         {
-         "name":"script",
-         "type":"string",
-         "value":"..\/script.js"
-        }, 
-        {
          "name":"tutorial",
          "type":"bool",
          "value":true
