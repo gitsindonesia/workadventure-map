@@ -114,6 +114,17 @@ const config = [
         ]
     },
     {
+        zone: 'teleportDesk',
+        message: 'Use this teleport to move places',
+        cta: [
+            {
+                label: 'Dismiss',
+                className: 'normal',
+                callback: () => WA.state.saveVariable('dontShowTeleportPopup', true).then(() => closePopup()),
+            }
+        ]
+    },
+    {
         zone: 'workDesk',
         message: 'See how your virtual office could be. This is a small example of course ;)',
         cta: [
@@ -205,6 +216,15 @@ WA.room.onEnterZone('meetDesk', () => {
     openPopup('meetDesk')
 });
 WA.room.onLeaveZone('meetDesk', closePopup);
+
+// teleport desks
+WA.room.onEnterZone('teleportDesk', () => {
+    const dontShow = WA.state.loadVariable('dontShowTeleportPopup')
+    if (dontShow) return;
+
+    openPopup('teleportDesk')
+});
+WA.room.onLeaveZone('teleportDesk', closePopup);
 
 WA.room.onEnterZone('workDesk', () => {
     const dontShow = WA.state.loadVariable('dontShowWorkPopup')
